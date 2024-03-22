@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <style>
+    .container{  
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+    }
+
+    .cyan1{
+        background-color:darkcyan;
+        height: 750px;
+        width: 100%;
+        display: flex;
+       
+        flex-direction: column;
+    }
+    .cyan2{
+        background-color:darkcyan;
+        height: 30px;
+        order: 1;
+        grid-column: span 2;
+        width: 100%;
+        
+
+    }
+    .cyan3{
+        background-color:darkcyan;
+        height: 30px;
+        width: 100%;
+
+    }
+    .Headrs{
+      color: white;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     margin-left: 10px;
+     margin-top: 15px;
+
+    }
+    .container2{
+      display: flex;
+    }
+    .Username{
+      margin-left: 20%;
+    }
+    .Email{
+      margin-left: 10%;
+    }
+    .LastLogin{
+      margin-left: 30%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="cyan1">
+      <div class="Headrs">
+      <p>Home</p>
+      <p>Users</p>
+      <p>Posts</p>
+      <p>Log out</p></div>
+    </div>
+    <div class="cyan2">
+      <p style="margin-left: 50%; margin-top: 5px; color: white; ">Thank you for visiting!</p>
+    </div>
+    <div class="cyan3">
+      <p style="margin-left: 50%; margin-top: 5px; ">Welcome!</p>
+    </div>
+  </div>
+  <div class="container2">
+  <div class="Username">
+    <h3>Username</h3>
+    <p>Mohammed</p>
+    <p>Ali</p>
+    <p>Omar</p>
+    <p>Nawaf</p>
+    
+  </div>
+  <div class="Email">
+    <h3>Email</h3>
+    <p>mohammed@gmail.com</p>
+    <p>ali@hotmail.com</p>
+    <p>omar@gmail.com</p>
+    <p>nawaf@gmail.com</p>
+  </div>
+ <div class="LastLogin">
+  <h3>Last Login</h3>
+  <p>5/5/2018</p>
+  <p>18/12/2009</p>
+  <p>4/9/2021</p>
+  <p>1/1/2023</p>
+</div>
+  
+  <p></p>
+</div>
+
+ 
+</body>
+
+</html>
